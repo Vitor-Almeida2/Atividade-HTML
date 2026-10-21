@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,
+100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+<title>Document</title>
+</head>
+<body>
+<ul>
+  <li><a href="#História">Início</a></li>
+  <li><a href="#FamiliaSimpson">A Família Simpson</a></li>
+    <ul>
+      <li><a href="#Galeria">Galeria</a></li>
+      <li><a href="#Personagens">Personagens</a></li>
+    </ul>
+    <li><a href="#FaClube">Fã Clube</a></li>
+    <li><a href="#FAQ">FAQ</a></li>
+</ul>
+<h1 id="História">Os Simpsons</h1>
+<p>Criada por Matt Groening, a série <strong>Os Simpsons</strong> estreou em 1989 e rapidamente se tornou um fenômeno cultural global. A animação é uma paródia satírica do estilo de vida da classe média americana, representada pela família Simpson, composta por Homer, Marge, Bart, Lisa e Maggie. Ambientada na cidade fictícia de Springfield, a série aborda de forma cômica e inteligente uma vasta gama de temas sociais, políticos e culturais.</p>
+<p>O que realmente solidificou a série no imaginário popular foi sua capacidade de criar personagens com personalidades únicas e bordões inesquecíveis. A filosofia de vida de Homer, por exemplo, muitas vezes complexa em sua simplicidade, pode ser perfeitamente resumida em uma de suas citações mais famosas: A cuFaClubelpa é minha e eu coloco ela em quem eu quiser! (fonte da citação:https://www.pensador.com/autor/homer_simpson/)</p>
+<p>Esse humor irreverente, combinado com críticas sociais afiadas, garantiu um lugar permanente no coração de milhões de fãs. A série é famosa por suas piadas recorrentes e uma quantidade impressionante de personagens secundários memoráveis, fazendo com que a cidade de Springfield pareça viva e dinâmica ao longo de mais de três décadas de história.</p>
+<h2 id="FamiliaSimpson">A Família Simpsons</h2>
+<h3 id="Galeria">Galeria</h3>
+<figure>
+<img src="/home/itp.local/3050653/Documents/html/imag1.jpg" alt="" width="300" height="200">
+<figcaption>A icônica abertura no sofá.</figcaption></figure>
+<figure>
+<img src="/home/itp.local/3050653/Documents/html/imag2.jpg" alt="" width="300" height="200">
+<figcaption>Episódio Homerpalooza.</figcaption>
+</figure>
+<figure>
+<img src="/home/itp.local/3050653/Documents/html/imag3.jpg" alt="" width="300" height="200">
+<figcaption>Homer sendo atingido por uma bola de canhão.</figcaption>
+</figure>
+  <table border="5" id="Personagens">
+    <tr>
+      <th colspan="2">Personagens</th>
+      <th>Bordão</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Principais</th>
+      <td>Bart</td>
+      <td>"Ay, Caramba!"</td>
+    </tr>
+    <tr>
+      <td>Homer</td>
+      <td>"D'oh"</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Secundários</th>
+      <td>Mr. Burns</td>
+      <td>"Excelente!"</td>
+    </tr>
+    <tr>
+      <td>Nelson</td>
+      <td>"Ha! Ha!"</td>
+    </tr>
+  </table>
+<h3 id="FaClube">Faça Parte do Fã-Clube de Springfield!</h3>
+<form action="reset" method="POST">
+Seu Nome:
+<input type="text" name="nome" id="nome" required>
+<br>
+Seu E-mail para receber novidades:
+<input type="email" id="email" required>
+</form>
+<br>
+<label for="opcao1">Qual seu lugar favorito em Springfield?</label>
+<br>
+<input type="radio" name="lugar" value="Qual seu lugar favorito em Springfield?"> Taverna do Moe<br>
+<input type="radio" name="lugar" value="Qual seu lugar favorito em Springfield?"> Kwik-E-Mart<br>
+<input type="radio" name="lugar" value="Qual seu lugar favorito em Springfield?"> Usina Nuclear<br>
+<br>
+<form action="/submit" method="POST">
+<label for="personagem">Personagem que você mais se identifica:</label>
+<select name="personagems" id="personagens">
+<option>Homer</option>
+<option>Marge</option>
+<option>Bart</option>
+<option>Lisa</option>
+</select>
+<br>
+<button>Enviar</button>
+</form>
+<h3 id="FAQ">Perguntas Frequentes</h3>
+<details>
+<summary>Onde fica a cidade de Springfield?</summary>
+<p>A localização exata de Springfield é um dos maiores segredos e piadas da série. Ela foi intencionalmente mantida ambígua para que pudesse representar qualquer cidade dos Estados Unidos.</p>
+</details>
+<details>
+<summary>Por que os personagens são amarelos?</summary>
+<p>Matt Groening, o criador, escolheu a cor amarela para que a série fosse instantaneamente reconhecível quando alguém estivesse trocando de canal na TV. A cor se destacava e chamava a atenção.</p>
+</details>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body, table, input, select, button, summary {
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+font-family: 'Luckiest Guy', cursive;
+}
+h1 {
+color: #ffd90f;
+text-transform: uppercase;
+font-size: 56px;
+text-shadow: 2px 2px #0094d9;
+}
+h2 {
+color: #0094d9;
+}
+a {
+color: #0094d9;
+text-decoration: none;
+font-weight: bold;
+}
